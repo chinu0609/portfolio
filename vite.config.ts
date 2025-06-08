@@ -14,7 +14,7 @@ export default defineConfig(({ mode }) => ({
     mode === 'development' &&
     componentTagger(),
   ].filter(Boolean),
-  base: "/home/chinu_tensor/chinmay-portfolio",
+  base: "portfolio",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
